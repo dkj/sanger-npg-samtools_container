@@ -91,7 +91,7 @@ RUN cd /tmp && \
 #
 # Next stage: make everything smaller
 #
-FROM ubuntu:18.04
+FROM ubuntu-minimal:18.04
 
 ARG IRODS_VERSION
 ARG DEFLATE_VERSION
